@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body, a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+body a:hover {
+    color: rgb(52, 129, 45);
+}
+.container  {
+    width: 80%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container h1 {
+    padding: 50px;
+    text-align: center;
+}
+.container table {
+    border: 1px solid #000;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+    width: 70%;
+}
+.container table thead {
+    font-size: 20px;
+    background-color: #c5d683;
+
+}
+.container .footer button,
+.container .forms button {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    padding: 3px;
+	margin: 5px;
+	height: 28px;
+	border: 1px solid rgb(0, 0, 0);
+	background: #fff;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.container .forms input {
+    text-align: center;
+}
+th,td {
+	border: 1px solid #000;
+}
+th {
+    padding: 5px;
+}
+th form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 17px;
+    max-width: 17px;
+    border: none;
+    border-radius: 5px;
+}
+th form button:hover {
+    border: 1px solid #000000a8
+}
+th form button img {
+    height: 17px;
+    width: 17px;
+}
+thead th .divth {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+thead th form:last-child {
+    transform: rotate(180deg);
+}
+
+.pages {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.pages a {
+    padding: 5px;
+}
+.pages a:hover {
+    background-color: #c5d683;
+}
+
+.footer {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+}
+
+/* Page Add */
+
+.container .forms {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container .forms form {
+    display: flex;
+    flex-direction: column;
+}
+.container .forms form input {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #cfcfcf;
+	background: #F6F6f6;
+	border-radius: 10px;
+}
